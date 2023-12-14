@@ -1,4 +1,9 @@
 /* Base */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body {
   line-height: 1.7;
   color: gray;
@@ -850,7 +855,7 @@ h5,
 .intro-section .container .row {
   width: 100%;
   height: auto;
-  min-height: 900px;
+  min-height: 700px;
   overflow-clip-margin: content-box;
   overflow: clip;
   display: flex;
@@ -1597,3 +1602,46 @@ h5,
     stroke-dashoffset: -136px;
   }
 }
+
+
+
+.footer{
+  position: relative;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #111;
+  height: auto;
+  width: 100vw;
+  padding-top: 40px;
+  color: #ec1e1e;
+
+}
+
+
+
+
+.footer{
+  margin-left: -22%;
+  margin-bottom: -20%;
+
+
+}
+
+
+
+button{
+  background-color: black;
+  color: white;
+  width: 70%;
+  height: 60px;
+  border-color: #ec008c;
+  border-radius: 9%;
+  cursor: pointer;
+
+}
+button:hover{
+  background-color: #ec008c;
+
+}
+
