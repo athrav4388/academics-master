@@ -21,7 +21,7 @@ function sendEmail(){
         message => {
             if (message == "OK"){
                 Swal.fire({
-                    title: "Good job!",
+                    title: "ThankYou",
                     text: "Form has been Submitted Succesfully",
                     icon: "success"
                   });
@@ -34,7 +34,6 @@ function sendEmail(){
               });
 
         }
-    
 
       }
     );
